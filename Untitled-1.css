@@ -1,0 +1,55 @@
+body {
+    background: url(texture.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 60px;
+    background: white;
+    border-radius: 50px; 
+    box-shadow: 0 0 5px black;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bth {
+    background: white;
+    border: 3px solid green;
+    color: green;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bth:hover {
+    background: green;
+    color: white;
+}
+
+.btn:disabled { 
+    color: gray; 
+    border-color: gray;
+    cursor: initial;
+    background: white;
+}
+
+nav {
+    background: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+}
